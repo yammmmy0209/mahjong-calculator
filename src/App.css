@@ -13,9 +13,10 @@
 
 .App-header {
   width: 100%;
-  max-width: 1000px;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
   text-align: center;
   align-items: center;
@@ -33,6 +34,7 @@
 }
 
 .options {
+  max-width: 900px;
   display: flex;
   justify-content: center;
   width: 90%;
