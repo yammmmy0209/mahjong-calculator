@@ -29,6 +29,7 @@ const InputDora = ({key, onInput}: props) => {
                         key={key-1}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="dora"
                         defaultValue={0}
                         min="0"
@@ -42,6 +43,7 @@ const InputDora = ({key, onInput}: props) => {
                     key={key-2}
                     className="inputNum"
                     type="number"
+                    inputMode="numeric"
                     id="ura"
                     value={ura}
                     min="0"

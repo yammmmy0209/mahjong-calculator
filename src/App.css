@@ -171,6 +171,10 @@ h3 {
   cursor: pointer;
 }
 
+.inputFu p {
+  margin: 10px;
+}
+
 .yakuButton:active:not(:disabled), .fuButton:active:not(:disabled) {
   opacity: 0.6;
 }
@@ -301,6 +305,7 @@ button {
   .fuButton {
     height: 75px;
     width: 135px;
+    margin: 10px 20px;
   }
 
   .resetButton {

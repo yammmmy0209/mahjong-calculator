@@ -125,6 +125,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-10}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="anko28"
                         defaultValue={0}
                         min="0"
@@ -138,6 +139,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-12}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="minko28"
                         defaultValue={0}
                         min="0"
@@ -153,6 +155,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-4}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="ankan28"
                         defaultValue={0}
                         min="0"
@@ -166,6 +169,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-5}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="minkan28"
                         defaultValue={0}
                         min="0"
@@ -184,6 +188,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-6}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="anko19"
                         defaultValue={0}
                         min="0"
@@ -197,6 +202,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-7}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="minko19"
                         defaultValue={0}
                         min="0"
@@ -212,6 +218,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-8}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="ankan19"
                         defaultValue={0}
                         min="0"
@@ -225,6 +232,7 @@ const InputFu = ({key, tsumo, menzen, displayInputFu}: props) => {
                         key={key-9}
                         className="inputNum"
                         type="number"
+                        inputMode="numeric"
                         id="minkan19"
                         defaultValue={0}
                         min="0"
