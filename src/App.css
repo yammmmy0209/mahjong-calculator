@@ -24,8 +24,10 @@
 }
 
 .App-header h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #208d00;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mainContent {
@@ -282,6 +284,10 @@ button {
 }
 
 @media(max-width: 600px){
+  .App-header h1 {
+    font-size: 50px;
+  }
+
   .buttonBox {
     gap: 20px 30px;
   }

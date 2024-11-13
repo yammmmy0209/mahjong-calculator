@@ -15,6 +15,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MAHJONG_CALCULATOR_73D05 }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_YMY_MAHJONG_CALCULATOR }}
           channelId: live
-          projectId: mahjong-calculator-73d05
+          projectId: ymy-mahjong-calculator
