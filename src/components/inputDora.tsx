@@ -49,7 +49,7 @@ const InputDora = ({key, onInput}: props) => {
                     min="0"
                     max="20"
                     onInput={handleClick}
-                    disabled={!activeList["立直"]}
+                    disabled={!activeList["立直"] && !activeList["ダブル立直"]}
                 ></input>
             </div>
         </>
